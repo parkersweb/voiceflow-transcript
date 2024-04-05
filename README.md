@@ -34,4 +34,4 @@ This plugin is built with [Create Figma Plugin](https://yuanqing.github.io/creat
 
 ### License
 
-MIT(/LICENSE.md)
+[MIT](/LICENSE.md)
