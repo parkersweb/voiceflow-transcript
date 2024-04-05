@@ -30,4 +30,8 @@ More information on setting up your development environment is available [here](
 
 ### Acknowledgements
 
-\_This plugin is built with [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/).
+This plugin is built with [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/).
+
+### License
+
+MIT(/LICENSE.md)
