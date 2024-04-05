@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@create-figma-plugin/ui": "^3.1.0",
+    "@create-figma-plugin/utilities": "^3.1.0",
+    "dayjs": "^1.11.10",
+    "p-memoize": "^7.1.1",
+    "preact": ">=10"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^3.1.0",
+    "@create-figma-plugin/tsconfig": "^3.1.0",
+    "@figma/plugin-typings": "1.82.0",
+    "typescript": ">=4",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  },
+  "figma-plugin": {
+    "editorType": [
+      "figma"
+    ],
+    "id": "voiceflow-transcript",
+    "name": "Voiceflow Transcript",
+    "main": "src/main.ts",
+    "ui": "src/ui.tsx"
+  }
+}

@@ -1,0 +1,12 @@
+.modalContent {
+  padding: var(--space-medium);
+  width: 360px;
+}
+
+.list {
+  padding-left: var(--space-medium);
+}
+
+.listItem + .listItem {
+  margin-top: var(--space-small);
+}

@@ -1,0 +1,10 @@
+.modalContent {
+  padding: var(--space-medium);
+  width: 360px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
