@@ -3,6 +3,6 @@ module.exports = function (manifest) {
     ...manifest,
     id: "1358019947661231901",
     documentAccess: "dynamic-page",
-    networkAccess: { allowedDomains: ["https://creator.voiceflow.com"] },
+    networkAccess: { allowedDomains: ["https://api.voiceflow.com"] },
   };
 };
