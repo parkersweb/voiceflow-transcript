@@ -35,3 +35,5 @@ This plugin is built with [Create Figma Plugin](https://yuanqing.github.io/creat
 ### License
 
 [MIT](/LICENSE.md)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K1WJT36)
