@@ -35,21 +35,25 @@ export async function createTranscript(
   transcriptItems.map(
     (item: ITranscriptEntityRequest | ITranscriptEntityText, index: number) => {
       const msgText = (): string | undefined => {
-        if (item.type === "text" && "message" in item.payload.payload) {
-          return item.payload.payload.message ?? undefined;
-        }
-        if (item.type === "request" && "query" in item.payload.payload) {
-          return item.payload.payload.query ?? undefined;
-        }
-        if (item.type === "request" && "label" in item.payload.payload) {
-          return item.payload.payload.label ?? undefined;
+        if (item.payload && item.payload.payload) {
+          if (item.type === "text" && "message" in item.payload.payload) {
+            return item.payload.payload.message ?? undefined;
+          }
+          if (item.type === "request") {
+            if ("query" in item.payload.payload) {
+              return item.payload.payload.query ?? undefined;
+            }
+            if ("label" in item.payload.payload) {
+              return item.payload.payload.label ?? undefined;
+            }
+          }
         }
         return undefined;
       };
 
       if (msgText()) {
+        console.log("blah");
         const bubbClone: InstanceNode = defaultVariant?.createInstance();
-
         const text = bubbClone.findOne(
           (node) => node.type == "TEXT"
         ) as TextNode;
