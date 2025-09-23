@@ -9,7 +9,7 @@ Pre-requisites:
 
 ## Connecting your Voiceflow account
 
-You'll need a Voiceflow API key and a Project ID to fetch transcript information. Information on how to create an API key is provided [here](https://developer.voiceflow.com/docs/step-1-get-api-key). Information on where your project ID is located can be found [here](https://docs.voiceflow.com/reference/project-ids-and-versions).
+You'll need a Voiceflow API key and a Project ID to fetch transcript information. Information on how to create an API key is provided [here](https://docs.voiceflow.com/reference/how-to-get-your-voiceflow-project-api-key). Information on where your project ID is located can be found [here](https://docs.voiceflow.com/docs/how-to-find-your-assistant-version-id-and-project-id).
 
 Transcripts can be created either using a specific transcript ID, or from a recent transcript:
 
